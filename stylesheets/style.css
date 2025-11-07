@@ -6,3 +6,16 @@
     font-style: normal;
     font-display: swap;
 }
+
+body {
+    display: flex;
+}
+
+.main-content {
+    background-color: #F9FAFA;
+    width: 62%;
+}
+
+.image-sidebar {
+    width: 38%;
+}
