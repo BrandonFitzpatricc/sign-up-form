@@ -7,15 +7,34 @@
     font-display: swap;
 }
 
+html {
+    font-size: calc(16px + 0.5vw);
+}
+
+:root {
+    --system-font-stack: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --header-font:  450 0.9rem var(--system-font-stack);
+}
+
 body {
     display: flex;
+    font-family: var(--system-font-stack);
 }
 
 .main-content {
     background-color: #F9FAFA;
-    width: 62%;
+    width: 63%;
 }
 
 .image-sidebar {
-    width: 38%;
+    width: 37%;
+}
+
+.introduction-header {
+    font: var(--header-font);
+    margin-top: 130px;
+    padding: 0 35px;
+} & p {
+    width: 85%;
+    margin-bottom: 20px;
 }
