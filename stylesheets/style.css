@@ -13,6 +13,7 @@ html {
 
 :root {
     --system-font-stack: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --left-margin: 50px;
 }
 
 /* These variables are scoped to divs in order to allow header-font-size to be overwritten,
@@ -39,8 +40,7 @@ body {
 
 .introduction-header {
     font: var(--header-font);
-    margin-top: 130px;
-    padding: 0 35px;
+    margin: 130px 0 0 var(--left-margin);
 
     & p {
       width: clamp(45ch, 92%, 75ch);
@@ -96,6 +96,36 @@ body {
                     border-color: #BC0606;
                 }
             }
+        }
+    }
+}
+
+.confirmation-controls {
+    margin: 30px 0 0 var(--left-margin);
+
+    & button {
+        cursor: pointer;
+        border: none;
+        color: #FFFFFF;
+        background-color: #596D48;
+        font: 450 0.8rem var(--system-font-stack);
+        border-radius: 8px;
+        box-shadow:  3px 5px 5px #CFD2D2;
+        padding: 15px 55px;
+        margin-bottom: 30px;
+
+        &:active {
+            box-shadow: inset 3px 5px 5px #516342;
+        }
+    }
+
+    & .log-in-prompt {
+        font-size: 0.8rem;
+
+        & a {
+            cursor: pointer;
+            color: #596D48;
+            font-weight: bold;
         }
     }
 }
