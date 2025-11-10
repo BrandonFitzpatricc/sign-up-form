@@ -7,7 +7,22 @@
 </head>
 
 <body>
-    <div class="image-sidebar"></div>
+    <div class="image-sidebar">
+        <div class="logo">
+            <img 
+             class="logo-icon" 
+             src="./images/odin-lined.png" 
+             alt="icon of odin consisting of white lines and shapes"
+             width="90" height="120"
+            />
+            <div class="logo-text">ODIN</div>
+        </div>
+
+        <div class="photo-credit">
+            Photo by <a href="https://unsplash.com/@haliewestphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Halie West</a> 
+            on <a href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+        </div>
+    </div>
 
     <div class="main-content">
         <div class="introduction-header">
@@ -30,7 +45,8 @@
                      id="first-name" 
                      name="first-name" 
                      autocomplete="given-name" 
-                     placeholder="John">
+                     placeholder="John"
+                     />
                 </div>
                 <div class="field">
                     <label for="last-name">LAST NAME</label>
@@ -38,18 +54,21 @@
                      id="last-name" 
                      name="last-name" 
                      autocomplete="family-name" 
-                     placeholder="Doe">
+                     placeholder="Doe"
+                     />
                 </div>
             </div>
 
             <div class="field-container">
                 <div class="field">
                     <label for="email">EMAIL</label>
-                    <input type="email" 
+                    <input 
+                     type="email" 
                      id="email" 
                      name="email" 
                      placeholder="johndoe123@gmail.com" 
-                     required>
+                     required
+                     />
                 </div>
                 <div class="field">
                     <label for="phone-number">PHONE NUMBER</label>
@@ -57,7 +76,8 @@
                      type="tel" id="phone-number" 
                      name="phone-number" 
                      placeholder="xxx-xxx-xxxx" 
-                     pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                     pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                     />
                 </div>
             </div>
 
@@ -70,7 +90,8 @@
                      name="password" 
                      placeholder="minimum length is 8 characters" 
                      minlength="8" 
-                     required>
+                     required
+                     />
                 </div>
 
                 <div class="field">
@@ -81,7 +102,8 @@
                      name="confirm-password" 
                      placeholder="both passwords must match" 
                      minlength="8" 
-                     required>
+                     required
+                     />
                 </div>
             </div>
         </form>
