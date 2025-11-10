@@ -19,8 +19,8 @@ html {
 which is not possible with nested variables in the root. The introduction and form headers
 each use different font sizes */
 div {
-    --font-size: 1rem;
-    --header-font:  450 var(--font-size) var(--system-font-stack);
+    --header-font-size: 1rem;
+    --header-font:  450 var(--header-font-size) var(--system-font-stack);
 }
 
 body {
@@ -59,7 +59,7 @@ body {
 }
 
 .sign-up-form .form-header {
-    --font-size: 1.12rem;
+    --header-font-size: 1.12rem;
     font: var(--header-font);
     margin-bottom: 25px;
 }
