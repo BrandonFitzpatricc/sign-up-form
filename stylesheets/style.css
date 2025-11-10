@@ -15,7 +15,7 @@ html {
     --system-font-stack: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
-/* These variables are scoped to divs in order to allow the font-size variable to be overwritten,
+/* These variables are scoped to divs in order to allow header-font-size to be overwritten,
 which is not possible with nested variables in the root. The introduction and form headers
 each use different font sizes */
 div {
