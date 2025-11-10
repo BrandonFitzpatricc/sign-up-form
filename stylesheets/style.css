@@ -83,9 +83,19 @@ body {
         & input {
             background-color: #FEFEFE;
             font-size: 0.75rem;
-            border: 2px solid #E5E7EB;
+            border: 1px solid #E5E7EB;
             border-radius: 5px;
             padding: 2px 10px;
+
+            &:focus {
+                outline: none;
+                border-color: #0C0CF1;
+                box-shadow:  2px 2px 5px #BABBBB;
+            }
+
+            &[type="password"]:invalid {
+                border-color: #BC0606;
+            }
         }
     }
 
