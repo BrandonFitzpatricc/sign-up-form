@@ -89,7 +89,7 @@ body {
     }
 }
 
-.sign-up-form {
+#sign-up-form {
     background-color: #FFFFFF;
     border-width: 1px 0px;
     border-style: solid;
