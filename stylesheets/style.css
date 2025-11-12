@@ -13,15 +13,15 @@ html {
 
 :root {
     --system-font-stack: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    --left-margin: 50px;
 }
 
-/* These variables are scoped to divs in order to allow header-font-size to be overwritten,
-which is not possible with nested variables in the root. The introduction and form headers
-each use different font sizes */
 div {
+    /* This variable must be scoped to divs in order to allow the font size to be overwritten,
+    which is not possible with nested variables in the root. The introduction and form headers 
+    each use different font sizes */
     --header-font-size: 1rem;
     --header-font:  450 var(--header-font-size) var(--system-font-stack);
+    --left-margin: 50px;
 }
 
 body {
