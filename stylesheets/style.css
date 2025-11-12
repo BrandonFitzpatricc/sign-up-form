@@ -29,7 +29,8 @@ body {
     font-family: var(--system-font-stack);
 }
 
-.image-sidebar {
+.image-sidebar {            
+    color: #FFFFFF;
     width: 37%;
     background-image: url(../images/green-leaf-plant.jpg);
     background-size: cover;
@@ -51,14 +52,12 @@ body {
         }
 
         & .logo-text {
-            color: #FFFFFF;
             font-family: "Norse", var(--system-font-stack);
             font-size: 4rem;
         }
     }
 
     & .photo-credit {
-        color: #FFFFFF;
         font-size: 0.6rem;
         margin-bottom: 10px;
 
