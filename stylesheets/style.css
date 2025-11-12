@@ -52,7 +52,7 @@ body {
 
         & .logo-text {
             color: #FFFFFF;
-            font-family: "Norse";
+            font-family: "Norse", var(--system-font-stack);
             font-size: 4rem;
         }
     }
