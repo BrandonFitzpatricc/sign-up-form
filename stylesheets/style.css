@@ -151,7 +151,7 @@ body {
         font-weight: 450;
         border-radius: 8px;
         box-shadow:  3px 5px 5px #CFD2D2;
-        padding: 15px 55px;
+        padding: 12px 55px;
         margin-bottom: 30px;
 
         &:active {
