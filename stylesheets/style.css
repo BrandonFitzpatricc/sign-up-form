@@ -34,6 +34,7 @@ body {
     width: 37%;
     background-image: url(../images/green-leaf-plant.jpg);
     background-size: cover;
+    background-color: #596D48;
     text-align: center;
     display: flex;
     flex-direction: column;
