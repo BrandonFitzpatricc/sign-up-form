@@ -140,6 +140,7 @@ body {
 }
 
 .confirmation-controls {
+    font-size: 0.8rem;
     margin: 30px 0 0 var(--left-margin);
 
     & button {
@@ -147,7 +148,7 @@ body {
         border: none;
         color: #FFFFFF;
         background-color: #596D48;
-        font: 450 0.8rem var(--system-font-stack);
+        font-weight: 450;
         border-radius: 8px;
         box-shadow:  3px 5px 5px #CFD2D2;
         padding: 15px 55px;
@@ -158,13 +159,9 @@ body {
         }
     }
 
-    & .log-in-prompt {
-        font-size: 0.8rem;
-
-        & a {
-            cursor: pointer;
-            color: #596D48;
-            font-weight: bold;
-        }
+    & .log-in-prompt a {
+        cursor: pointer;
+        color: #596D48;
+        font-weight: bold;
     }
 }
