@@ -80,8 +80,8 @@ body {
         margin: 130px 0 0 var(--left-margin);
 
         & p {
-        width: clamp(45ch, 92%, 75ch);
-        margin-bottom: 20px;
+            width: clamp(45ch, 92%, 75ch);
+            margin-bottom: 20px;
         }
     }
 
