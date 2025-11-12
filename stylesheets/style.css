@@ -7,10 +7,6 @@
     font-display: swap;
 }
 
-html {
-    font-size: calc(16px + 0.5vw);
-}
-
 :root {
     --system-font-stack: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
@@ -22,6 +18,10 @@ div {
     --header-font-size: 1rem;
     --header-font:  450 var(--header-font-size) var(--system-font-stack);
     --left-margin: 50px;
+}
+
+html {
+    font-size: calc(16px + 0.5vw);
 }
 
 body {
