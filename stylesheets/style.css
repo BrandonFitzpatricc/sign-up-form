@@ -44,6 +44,7 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
+        gap: 2px;
         padding: 5px 0;
         margin: 200px 0 auto;
 
